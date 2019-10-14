@@ -325,8 +325,15 @@ footer {
   line-height: 42px;
   letter-spacing: 1px;
   padding-top: 18px;
-  text-align: left;
+  text-align:center ;
 
+}
+.homeText
+{
+	display: flex;
+	flex-direction: column;
+	justify-content : center;
+	text-align : justify;
 }
 
 
