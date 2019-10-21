@@ -158,8 +158,50 @@ footer {
 .intro
 {
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start ;
+	padding-left: 20%;
+	padding-right: 20%;	
 }
+/*---------------------------------------
+ Article 1 Section
+-----------------------------------------*/
+.art1
+{   display: flex;
+	justify-content: flex-start ;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+/*---------------------------------------
+ Article 2 Section
+-----------------------------------------*/
+.art2
+{   display: flex;
+	justify-content: flex-start ;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+/*---------------------------------------
+ Conclusion Section
+-----------------------------------------*/
+.conclu
+{   display: flex;
+	justify-content: flex-start ;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+/*---------------------------------------
+ Bibliography Section
+-----------------------------------------*/
+.bibli
+{   display: flex;
+	justify-content: flex-start ;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+
+
 
 /*---------------------------------------
     Preloader section
