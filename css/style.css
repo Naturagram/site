@@ -11,7 +11,7 @@ body {
 
 
 /*---------------------------------------
-    Typorgraphy
+    Typography
 -----------------------------------------*/
 
 h1 {
@@ -60,6 +60,7 @@ p {
 .small {
   font-size: 14px;
   line-height: 28px;
+	align-content: center;
 }
 #service .small {
   padding: 10px 20px 20px 20px;
@@ -107,37 +108,18 @@ a:hover, a:active, a:focus {
   text-align: center;
 }
 
-#portfolio,
-#cta,
-#team, #service,
-#contact {
+#portfolio {
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
-#portfolio,
-#service, #contact {
+#portfolio {
   padding-top: 10px;
 }
 
-#cta,
-#team, #service,
-footer {
-  text-align: center;
-}
-
-#portfolio img,
-#team img {
+#portfolio img {
   border-radius: 2px;
   width: 100%;
-}
-
-.bg-gray {
-  background-color: #f9f9f9;
-}
-
-.bg-dark {
-  background-color: #202020;
 }
 
 .head {
@@ -146,6 +128,7 @@ footer {
   position: relative;
     text-align: center;
 }
+
 .lr-pd {
     padding-left: 10%;
     padding-right: 10%;
@@ -160,7 +143,8 @@ footer {
 	display: flex;
 	justify-content: flex-start ;
 	padding-left: 20%;
-	padding-right: 20%;	
+	padding-right: 20%;
+	text-align: justify;
 }
 /*---------------------------------------
  Article 1 Section
@@ -170,6 +154,7 @@ footer {
 	justify-content: flex-start ;
 	padding-left: 20%;
 	padding-right: 20%;
+	text-align: justify;
 }
 /*---------------------------------------
  Article 2 Section
@@ -179,6 +164,7 @@ footer {
 	justify-content: flex-start ;
 	padding-left: 20%;
 	padding-right: 20%;
+	text-align: justify;
 }
 
 /*---------------------------------------
@@ -189,6 +175,7 @@ footer {
 	justify-content: flex-start ;
 	padding-left: 20%;
 	padding-right: 20%;
+	text-align: justify;
 }
 /*---------------------------------------
  Bibliography Section
@@ -198,6 +185,7 @@ footer {
 	justify-content: flex-start ;
 	padding-left: 20%;
 	padding-right: 20%;
+	text-align: justify;
 }
 
 
@@ -326,18 +314,6 @@ footer {
 }
 
 
-/*---------------------------------------
-    Main section
------------------------------------------*/
-
-.main-about,
-.main-service, .main-contact,
-.main-work {
-    height: 70vh;
-    text-align: center;
-}
-
-
 
 
 /*---------------------------------------
@@ -379,7 +355,7 @@ footer {
   line-height: 42px;
   letter-spacing: 1px;
   padding-top: 18px;
-  text-align:left ;
+  text-align:right ;
 	justify-content: flex-end;
 	flex-direction: column;
 
@@ -393,145 +369,6 @@ footer {
 	text-align : justify;
 }
 
-
-
-
-/*---------------------------------------
-   CTA section
------------------------------------------*/
-
-#cta p {
-  color: #666;
-  font-size: 24px;
-  line-height: 42px;
-}
-
-#cta .btn {
-  background-color: #a1c45a;
-  border: 2px solid transparent;
-  color: #ffffff;
-  font-size: 14px;
-  font-weight: 500;
-  border-radius: 2px;
-  letter-spacing: 1px;
-  padding: 12px 36px 14px;
-  margin-top: 32px;
-  transition: all 0.4s ease-in-out;
-}
-
-#cta .btn:hover {
-  background-color: #222;
-}
-
-
-
-/*---------------------------------------
-    About section
------------------------------------------*/
-
-#about {
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-#about h3 {
-  text-align: center;
-}
-
-#about .chart {
-  position: relative;
-  text-align: center;
-}
-
-#about .chart-icon {
-  position: absolute;
-  left:50%;
-  top:50%;
-  margin:-40px 0 0 -34px;
-  width: 68px;
-  height: 68px;
-  line-height: 68px;
-  border-radius:50%;
-  background-color: #f0f0f0;
-  color: #242424;
-}
-
-#about .chart-icon .fa {
-  position: absolute;
-  top:50%;
-  margin-top: -12px;
-  left:0;
-  width: 100%;
-  font-size: 24px;
-}
-
-
-/*---------------------------------------
-   Team section
------------------------------------------*/
-
-#team h4 {
-  padding-bottom: 12px;
-}
-
-#team .team-thumb {
-  width: 100%;
-  margin-bottom: 32px;
-  position: relative;
-}
-
-#team .team-overlay {
-  color: #ffffff;
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-  height: 90px;
-  overflow: hidden;
-  transition: height 450ms;
-}
-
-#team .team-thumb:hover .team-overlay {
-  height: 100%;
-  background-color: #ffffff;
-  color: #222;
-  padding-top: 30%;
-  opacity: 0.9;
-}
-
-#team .team-thumb:hover h4 {
-  color: #a1c45a;
-}
-
-
-/*---------------------------------------
-    Service section
------------------------------------------*/
-
-#service .fa {
-  background-color: #f0f0f0;
-  border-radius: 100px;
-  cursor: pointer;
-  color: #a1c45a;
-  font-size: 32px;
-  width: 85px;
-  height: 85px;
-  line-height: 85px;
-  text-align: center;
-  transition: all 0.4s ease-in-out;
-  position: relative;
-  top: 0px;
-}
-
-#service .fa:hover {
-  background-color: #222;
-  color: #ffffff;
-  transform: scale(1);
-  top: -5px;
-}
-
-#service .small {
-  padding-bottom: 40px;
-}
 
 
 
@@ -554,10 +391,10 @@ footer {
   position: absolute;
   overflow: hidden;
   z-index: 1;
-  top:0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  top: 45%;
+  left: 45%;
+  width: 10%;
+  height: 10%;
   opacity: 0;
   color: #a1c45a;
   -webkit-transition: all 0.3s;
@@ -688,58 +525,6 @@ footer {
 .mfp-with-zoom.mfp-removing.mfp-bg {
   opacity: 0;
 }
-/*---------------------------------------
-   Contact
------------------------------------------*/
-
-#contact form .form-control {
-  background: transparent;
-  border: none;
-  border-bottom: 1px solid #999;
-  border-radius: 0px;
-  box-shadow: none;
-  font-size: 14px;
-  margin-bottom: 20px;
-  transition: all 0.4s ease-in-out;
-}
-
-#contact form .form-control:focus {
-  border-bottom: 2px solid #333;
-}
-
-#contact form input {
-  height: 50px;
-}
-
-#contact form input[type="submit"] {
-    border-radius: 2px;
-  background-color: #a1c45a;
-  border: none;
-  font-weight: 500;
-  letter-spacing: 2px;
-  color: #ffffff;
-  text-transform: uppercase;
-  margin-top: 30px;
-}
-
-#contact form input[type="submit"]:hover {
-  background-color: #222;
-}
-
-#contact .contact-detail {
-    padding: 30px;
-    background-color: #f9f9f9;
-}
-#contact .contact-detail-2 {
-  padding-top: 6px;
-}
-
-#contact #google-map iframe {
-  border: none;
-  width: 100%;
-  height: 350px;
-}
-
 
 
 /*---------------------------------------
@@ -782,53 +567,12 @@ footer .footer-copyright p {
 }
 
 
-
-/*---------------------------------------
-   Social icon
------------------------------------------*/
-
-.social-icon {
-    position: relative;
-    padding: 0;
-    margin: 0;
-}
-
-.social-icon li {
-    display: inline-block;
-    list-style: none;
-}
-
-.social-icon li a {
-    color: #666;
-    border-radius: 2px;
-    cursor: pointer;
-    font-size: 16px;
-    text-decoration: none;
-    transition: all 0.4s ease-in-out;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    vertical-align: middle;
-    position: relative;
-    top: 0px;
-}
-
-.social-icon li a:hover {
-    background: #a1c45a;
-    color: #ffffff;
-    top: -5px;
-}
-
-
-
 /*---------------------------------------
    Back top
 -----------------------------------------*/
 
 .go-top {
   background-color: #ffffff;
-  box-shadow: 1px 1.732px 12px 0px rgba( 0, 0, 0, .14 ), 1px 1.732px 3px 0px rgba( 0, 0, 0, .12 );
   border-radius: 2px;
   transition : all 1s ease;
   bottom: 2em;
@@ -842,117 +586,4 @@ footer .footer-copyright p {
   height: 35px;
   line-height: 30px;
   text-align: center;
-}
-
-.go-top:hover {
-    background: #a1c45a;
-    color: #ffffff;
-}
-
-
-
-/*---------------------------------------
-   Mobile Responsive
------------------------------------------*/
-
-@media (max-width: 980px) {
-
-  #home {
-    height: 32vh;
-  }
-
-  #home p {
-    font-size: 23px;
-  }
-
-  .filter-wrapper li a {
-    padding: 8px 12px;
-  }
-
-  #about .chart {
-    margin-top: 32px;
-  }
-
-  #cta p {
-    font-size: 24px;
-  }
-
-}
-
-
-
-@media (max-width: 768px) {
-
-  body {
-    text-align: center;
-  }
-
-  h1 {
-    font-size: 48px;
-  }
-
-  #portfolio,
-  #cta,
-  #team, #service,
-  #contact {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-}
-
-
-
-@media (max-width: 767px) {
-
-  .navbar-default {
-    text-align: center;
-    padding-top: 0px;
-  }
-
-  .navbar-default .navbar-brand {
-    line-height: 25px;
-  }
-
-  .navbar-default .navbar-nav li a {
-    line-height: 35px;
-  }
-
-  footer .footer-link ul li {
-    padding: 8px;
-  }
-
-}
-
-
-
-@media (max-width: 650px) {
-
-  #home {
-    height: 100vh;
-  }
-
-  h1 {
-    font-size: 30px;
-  }
-
-  #home p,
-  #cta p {
-    font-size: 18px;
-    line-height: 32px;
-  }
-
-  .filter-wrapper {
-    text-align: center;
-  }
-
-  .filter-wrapper li a {
-    padding: 4px;
-  }
-
-  #contact .contact-detail-1 {
-    padding-top: 32px;
-  }
-
-
 }
